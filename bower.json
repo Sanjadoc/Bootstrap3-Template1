@@ -1,0 +1,22 @@
+{
+  "name": "Bootstrap3 Template1",
+  "homepage": "https://github.com/Sanjadoc/Bootstrap3-Template1",
+  "authors": [
+    "sanjadoc <sanja_doc@ukr.net>"
+  ],
+  "description": "My first template Boostrap3",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Boostrap3",
+    "JS",
+    "CSS",
+    "HTML5",
+    "Bower"
+  ],
+  "license": "GNU Lesser General Public License v3.0",
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "modernizr-min": "~3.2.0"
+  }
+}
