@@ -1,0 +1,69 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Alex Green
+Updated: December 2015
+Notes:	 For my Education
+
+*/
+
+@import "../bower_components/bootstrap/dist/css/bootstrap.css" all;
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput {
+    width: 200px;
+    float: left;
+    margin-right: 2px;
+}
+
+/*.navbar-brand {
+    padding: 13px 15px;
+}*/
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
