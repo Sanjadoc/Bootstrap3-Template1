@@ -3,7 +3,7 @@
 My Custom CSS
 =============
 
-Author:  Alex Green
+Author:  ...
 Updated: December 2015
 Notes:	 For my Education
 
@@ -14,6 +14,18 @@ Notes:	 For my Education
 /* --------------------------------------
    Layout
    -------------------------------------- */
+#features {
+    text-align: center;
+}
+
+#features img {
+    margin: 0 0 20px;
+}
+
+.panel-title {
+    font-weight: bold;
+    font-size: 18px;
+}
 
 
 
@@ -83,7 +95,7 @@ body {
    -------------------------------------- */
 .alert {
     margin-top: 20px;
-    /*display: none;*/
+    display: none;
 }
 
 .well {
