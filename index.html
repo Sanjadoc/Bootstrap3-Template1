@@ -96,7 +96,7 @@
 					</div> <!-- end nav-collapse -->
 				</div> <!-- end container -->
 			</div> <!-- end navbar -->
-			<div class="carousel slide" id="myCarousel">
+			<div class="carousel slide" id="myCarousel" data-interval="4000" data-ride="carousel" data-pause="hover">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
@@ -166,45 +166,123 @@
 			<div class="row" id="features">
 				<div class="container">
 					<div class="col-sm-4 feature">
-						<div class="panel">
+						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h1 class="panel-title">Learn to HTML5</h1>
+								<h3 class="panel-title">Learn to HTML5</h3>
 							</div> <!-- end panel-heading -->
-							<img src="img/badge_html5.jpg" alt="HTML5" class="img-circle">
-							<p>
-								HTML stands for Hyper Text Markup Language. A markup language is a set of markup tags. HTML documents are described by HTML tags.
-							</p>
-							<a href="http://www.w3schools.com/html/default.asp" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+                            <div class="panel-body">
+                                <img src="img/badge_html5.jpg" alt="HTML5" class="img-circle">
+                                <p>
+                                    HTML stands for Hyper Text Markup Language. A markup language is a set of markup tags. HTML documents are described by HTML tags.
+                                </p>
+                                <a href="http://www.w3schools.com/html/default.asp" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+                            </div> <!-- end panel-body -->
 						</div> <!-- end panel -->
 					</div><!-- end col-sm-4 feature-->
 					<div class="col-sm-4 feature">
-						<div class="panel">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h3 class="panel-title">Learn to CSS3</h3>
 							</div> <!-- end panel-heading -->
-							<img src="img/badge_css3.jpg" alt="CSS3" class="img-circle">
-							<p>
-								CSS is a stylesheet language that describes the presentation of an HTML (or XML) document.								CSS describes ... .
-							</p>
-							<a href="http://www.w3schools.com/css/default.asp" target="_blank" class="btn btn-warning btn-block">Learn to code CSS3</a>
+                            <div class="panel-body">
+                                <img src="img/badge_css3.jpg" alt="CSS3" class="img-circle">
+                                <p>
+                                    CSS is a stylesheet language that describes the presentation of an HTML (or XML) document.								CSS describes ... .
+                                </p>
+                                <a href="http://www.w3schools.com/css/default.asp" target="_blank" class="btn btn-warning btn-block">Learn to code CSS3</a>
+                            </div> <!-- end panel-body -->
 						</div> <!-- end panel -->
 					</div><!-- end col-sm-4 feature-->
 					<div class="col-sm-4 feature">
-						<div class="panel">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h3 class="panel-title">Learn to Bootstrap 3</h3>
 							</div> <!-- end panel-heading -->
-							<img src="img/badge_bootstrap.jpg" alt="Bootstrap3" class="img-circle">
-							<p>
-								Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
-							</p>
-							<a href="http://getbootstrap.com/" target="_blank" class="btn btn-warning btn-block">Learn to Bootstrap 3</a>
+                            <div class="panel-body">
+                                <img src="img/badge_bootstrap.jpg" alt="Bootstrap3" class="img-circle">
+                                <p>
+                                    Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+                                </p>
+                                <a href="http://getbootstrap.com/" target="_blank" class="btn btn-warning btn-block">Learn to Bootstrap 3</a>
+                            </div> <!-- end panel-body -->
 						</div> <!-- end panel -->
 					</div><!-- end col-sm-4 feature-->
 				</div> <!-- end container features-->
 			</div>  <!-- end Features -->
 			<div class="row" id="moreInfo">
-
+                <div class="container">
+                    <div class="col-sm-6">
+                        <h3>Neat Tabbable Content</h3>
+                        <div class="tabs">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                                <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active fade in" id="tab1">
+                                    <h4> <span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite sorf spot</small></h4>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325515.68164636736!2d30.252504842100066!3d50.40213675128659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LI!5e0!3m2!1sru!2sua!4v1449942655636" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    <p>Kiev is one of the biggest cities in Europe. It is a bustling capital of independent Ukraine, its administrative, economic, scientific, cultural and educational center. This scenic city with population of over 3 million people is located on the shores of the Dnepr River</p>
+                                    <p>Kiev is a city of invaluable historical and cultural monuments, a city of great events and outstanding people. Everyone will find there something especially interesting for himself.</p>
+                                </div> <!-- end tab-pane -->
+                                <div class="tab-pane fade" id="tab2">
+                                    <h4>A Left Floated Picture <small>Using Placehold.it</small></h4>
+                                    <img src="http://placehold.it/140" class="thumbnail pull-left">
+                                    <p>Adding an image file extension will render the image in the proper format. Image format is optional and the default is a gif. jpg and jpeg are the same. The image extension can go at the end of any option in the url</p>
+                                    <p>Custom text can be entered using a query string at the very end of the url. This is optional, default is the image dimensions (300×250). A-z (upper and lowercase), numbers, and most symbols will work just fine.</p>
+                                    <p>Height is optional, if no height is specified the image will be a square.</p>
+                                    <hr>
+                                    <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Windows</a>
+                                    <div class="modal fade" id="myModal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title"><span class="glyphicon glyphicon-modal-window"></span> A Modal Window </h4>
+                                                </div> <!-- end modal-header -->
+                                                <div class="modal-body">
+                                                    <h4>Text in modal</h4>
+                                                    <p>The Modal plugin is a dialog box/popup window that is displayed on top of the current page. For a tutorial about Modals, read our Bootstrap Modal Tutorial.</p>
+                                                    <h4>Popovers in a modal</h4>
+                                                    <a href="#" class="btn btn-danger pop">Don't click this button</a>
+                                                    <h4>Tooltips in modal</h4>
+                                                    <a href="#">This link</a> shold have a tooltip, and so should <a href="#">this one</a>
+                                                    <hr>
+                                                    <p class="text-danger">PS: This form doesn't to anything. Just a heads up</p>
+                                                    <form class="form-horizontal">
+                                                        <div class="form-group">
+                                                            <label for="inputName" class="col-lg-2 control-label">Name</label>
+                                                            <div class="col-lg-10">
+                                                                <input type="text" class="form-control" id="inputName" placeholder="Enter you name">
+                                                            </div> <!-- end col-lg-10 -->
+                                                        </div> <!-- end form-group -->
+                                                        <div class="form-group">
+                                                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                                                            <div class="col-lg-10">
+                                                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter you Email">
+                                                            </div> <!-- end col-lg-10 -->
+                                                        </div> <!-- end form-group -->
+                                                        <div class="form-group">
+                                                            <label for="inputMsg" class="col-lg-2 control-label">Massage</label>
+                                                            <div class="col-lg-10">
+                                                                <textarea class="form-control" id="inputMsg" rows="3"></textarea>
+                                                                <button class="btn btn-success pull-right" type="submit"><span class="glyphicon glyphicon-send"></span> Send</button>
+                                                            </div> <!-- end col-lg-10 -->
+                                                        </div> <!-- end form-group -->
+                                                    </form> <!-- end form -->
+                                                </div> <!-- end modal-body -->
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-default" data-dismiss="modal" type="button"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                                                    <button class="btn btn-primary" type="button"><span class="glyphicon glyphicon-save"></span> Save Changes</button>
+                                                </div> <!-- end modal-footer -->
+                                            </div> <!-- end modal-content -->
+                                        </div> <!-- end modal-dialog -->
+                                    </div> <!-- end modal -->
+                                </div> <!-- end tab-pane -->
+                            </div> <!-- end tab-content -->
+                        </div><!-- end tabs -->
+                    </div> <!-- end col-sm-6 -->
+                </div> <!-- end container -->
 			</div>  <!-- end moreInfo -->
 			<div class="row" id="moreCourses">
 

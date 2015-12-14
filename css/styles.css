@@ -23,8 +23,12 @@ Notes:	 For my Education
 }
 
 .panel-title {
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 18px;
+}
+
+#inputMsg {
+    margin-bottom: 15px;
 }
 
 
@@ -100,6 +104,10 @@ body {
 
 .well {
     margin: 20px 0;
+}
+
+.tabs img.thumbnail {
+    margin: 0 20px 10px 0;
 }
 
 /* --------------------------------------
